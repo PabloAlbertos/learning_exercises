@@ -5,14 +5,14 @@ package app;
  */
 public class View {
 
-    final int id;
+    private final int id;
     int x;
     int y;
     int height;
     int width;
 
     public View(int id) {
-        this.id = - 1;
+        this.id = id;
         this.x = -1;
         this.y = -1;
         this.height = -1;
@@ -68,7 +68,7 @@ public class View {
         this.width = width;
     }
 
-    public void setPosition(int x,int y){
+    public void setPosition(int x, int y){
         this.x = x;
         this.y = y;
     }

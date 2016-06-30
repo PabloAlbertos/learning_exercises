@@ -5,7 +5,7 @@ package app;
  */
 public class TextView extends View {
 
-    String text;
+    private String text;
 
     public TextView(int id) {
         super(id);

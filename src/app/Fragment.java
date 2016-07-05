@@ -10,4 +10,24 @@ public class Fragment {
     public Fragment(int id) {
         this.id = id;
     }
+
+    public void onCreateView(Layout layout){
+        this.root = layout;
+    }
+
+    public Layout getRoot() {
+        return root;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void onResume(){
+        System.out.println("Acitividad resumida");
+    }
+
+    public void onDestroy(){
+        System.out.println("Acitividad destruida");
+    }
 }

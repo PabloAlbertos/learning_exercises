@@ -1,4 +1,4 @@
-package app;
+package sdk;
 
 /**
  * Created by pabloalbertos on 29/06/16.

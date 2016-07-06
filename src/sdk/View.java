@@ -1,4 +1,4 @@
-package app;
+package sdk;
 
 /**
  * Created by pabloalbertos on 29/06/16.
@@ -6,10 +6,10 @@ package app;
 public class View {
 
     private final int id;
-    int x;
-    int y;
-    int height;
-    int width;
+    private int x;
+    private int y;
+    private int height;
+    private int width;
 
     public View(int id) {
         this.id = id;
